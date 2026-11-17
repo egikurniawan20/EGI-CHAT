@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q "$(ls *.zip | head -n 1)" -d proj
+      - run: unzip -q "EGICHAT-APK-v2.zip" -d proj
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
